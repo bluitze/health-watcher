@@ -1,0 +1,35 @@
+{
+  "name": "health-watcher",
+  "version": "1.0.0",
+  "description": "App to track health stats",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node src/index.js"
+  },
+  "keywords": [
+    "Health",
+    "Weight",
+    "Fitness"
+  ],
+  "author": "Bryan Luitze",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-datasource-rest": "^0.3.2",
+    "apollo-server": "^2.4.0",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-dotenv": "^0.1.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "bcrypt": "^3.0.6",
+    "graphql": "^14.0.2",
+    "graphql-type-json": "^0.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.11",
+    "mysql2": "^1.6.5",
+    "sequelize": "^6.0.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
